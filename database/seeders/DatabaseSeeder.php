@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
+    //php artisan db:seed
     /**
      * Run the database seeds.
      */
@@ -27,9 +28,9 @@ class DatabaseSeeder extends Seeder
             'nome' => 'tinta',
             'cor'=> 'azul',
             'textura'=> 'granulada',
-            'peso'=> '12,4',
+            'peso'=> '12.4',
             'unidade_medida'=> 'gramas',
-            'aplicação'=> 'acabamento',
+            'aplicacao'=> 'acabamento',
             'qtd_estoque'=> 0,
             'qtd_minima'=> 4,
         ]);
@@ -38,9 +39,9 @@ class DatabaseSeeder extends Seeder
             'nome' => 'tinta',
             'cor'=> 'rosa',
             'textura'=> 'granulada',
-            'peso'=> '12,4',
+            'peso'=> '12.4',
             'unidade_medida'=> 'gramas',
-            'aplicação'=> 'acabamento',
+            'aplicacao'=> 'acabamento',
             'qtd_estoque'=> 0,
             'qtd_minima'=> 5,
         ]);
@@ -49,9 +50,9 @@ class DatabaseSeeder extends Seeder
             'nome' => 'cimento',
             'cor'=> 'cinza',
             'textura'=> 'liso',
-            'peso'=> '24,4',
+            'peso'=> '24.4',
             'unidade_medida'=> 'gramas',
-            'aplicação'=> 'estrutura',
+            'aplicacao'=> 'estrutura',
             'qtd_estoque'=> 0,
             'qtd_minima'=> 6,
         ]);
@@ -60,9 +61,9 @@ class DatabaseSeeder extends Seeder
             'nome' => 'cimento',
             'cor'=> 'branco',
             'textura'=> 'pastoso',
-            'peso'=> '24,4',
+            'peso'=> '24.4',
             'unidade_medida'=> 'gramas',
-            'aplicação'=> 'estrutura',
+            'aplicacao'=> 'estrutura',
             'qtd_estoque'=> 0,
             'qtd_minima'=> 3,
         ]);
@@ -71,9 +72,9 @@ class DatabaseSeeder extends Seeder
             'nome' => 'argamassa',
             'cor'=> 'azul acinzentado',
             'textura'=> 'granulado',
-            'peso'=> '29,4',
+            'peso'=> '29.4',
             'unidade_medida'=> 'gramas',
-            'aplicação'=> 'acabamento',
+            'aplicacao'=> 'acabamento',
             'qtd_estoque'=> 0,
             'qtd_minima'=> 7,
         ]);

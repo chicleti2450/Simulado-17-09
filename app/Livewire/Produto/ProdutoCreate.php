@@ -23,7 +23,7 @@ class ProdutoCreate extends Component
             'textura'=> $this->textura,
             'peso'=> $this->peso,
             'unidade_medida'=> $this->unidade_medida,
-            'aplicação'=> $this->aplicacao,
+            'aplicacao'=> $this->aplicacao,
             'qtd_estoque'=> $this->qtd_estoque,
             'qtd_minima'=> $this-> qtd_minima
 

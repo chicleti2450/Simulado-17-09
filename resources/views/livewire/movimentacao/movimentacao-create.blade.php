@@ -83,7 +83,7 @@
                                 <th>Cor</th>
                                 <th>Textura</th>
                                 <th>Peso</th>
-                                <th>Unidade_medida</th>
+                                <th>Unidade de medida</th>
                                 <th>Aplicação</th>
                                 <th>Estoque Atual</th>
                                 <th>Estoque Mínimo</th>
